@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "slack-local": {
+      "command": "node",
+      "args": ["/absolute/path/to/slack-mcp-local/src/index.js"]
+    }
+  }
+}

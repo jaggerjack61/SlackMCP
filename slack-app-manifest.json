@@ -1,0 +1,32 @@
+{
+  "display_information": {
+    "name": "Local Slack MCP",
+    "description": "Personal local MCP tools for Slack",
+    "background_color": "#243447"
+  },
+  "oauth_config": {
+    "scopes": {
+      "user": [
+        "chat:write",
+        "channels:read",
+        "groups:read",
+        "im:read",
+        "mpim:read",
+        "channels:history",
+        "groups:history",
+        "im:history",
+        "mpim:history",
+        "users:read",
+        "search:read",
+        "im:write",
+        "mpim:write",
+        "reactions:write"
+      ]
+    }
+  },
+  "settings": {
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": false,
+    "token_rotation_enabled": false
+  }
+}

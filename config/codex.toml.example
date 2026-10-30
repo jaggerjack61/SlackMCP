@@ -1,0 +1,3 @@
+[mcp_servers.slack_local]
+command = "node"
+args = ["/absolute/path/to/slack-mcp-local/src/index.js"]
